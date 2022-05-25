@@ -13,3 +13,9 @@ talaba = json.dumps(talaba_json, indent=3)
 ismi= ['ismi']
 
 print(talaba)
+
+fayl='students.json'
+with open(fayl):
+  talab=json.load(fayl)
+
+print(type(talab))  
